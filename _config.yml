@@ -1,0 +1,23 @@
+title:              "운동하는 치킨의  어색한 배움 이야기"
+tagline:            "배움이 전부입니다"
+email:              "wkdrnlgks11@gmail.com"
+description:        "어딘가 어색한 주인장이 살면서 배우는 것들을 나누는 곳."
+author:             "운치"
+baseurl:            "/"
+url:                "https://unchi.co.kr"
+locale:             "ko_KR"
+thumbnail:          "/img/thumbnail.jpg"
+
+# Social Profiles
+twitter_username:   twitter_username
+instagram_username: instagram_username
+facebook_username:  facebook_username
+linkedin_username:  linkedin_username
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-paginate
