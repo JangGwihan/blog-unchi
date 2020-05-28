@@ -1,12 +1,12 @@
 title:              "운동하는 치킨의  어색한 배움 이야기"
-tagline:            "배움이 전부입니다"
+tagline:            "운치"
 email:              "wkdrnlgks11@gmail.com"
 description:        "어딘가 어색한 주인장이 살면서 배우는 것들을 나누는 곳."
 author:             "운치"
 baseurl:            "/"
 url:                "https://unchi.co.kr"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnail.jpg"
+thumbnail:          "/img/posts/01/header01.jpg"
 
 # Social Profiles
 twitter_username:   twitter_username
