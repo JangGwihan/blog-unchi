@@ -6,7 +6,7 @@ author:             "운치"
 baseurl:            "/"
 url:                "https://unchi.co.kr"
 locale:             "ko_KR"
-thumbnail:          "/img/posts/01/header01.jpg"
+thumbnail:          "/img/bg-index.jpg"
 
 # Social Profiles
 twitter_username:   twitter_username
