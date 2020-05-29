@@ -1,22 +1,22 @@
 ---
 layout: page
-title: 카테고리 1
-permalink: /category/1/
+title: 저작권
+permalink: /copyright/1/
 background: '/img/bg-post.jpg'
 ---
 
-	{% for post in site.categories.category-1 %}
+	{% for post in site.categories.copyright-1 %}
 
 	<article class="post-preview">
 	  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 	    {% if post.feature %}
 	      <img class="post-feature" src="{{ post.feature }}" alt="">
 	    {% endif %}
-	    <h2 class="post-title">{{ post.title }}</h2>
+	    <h2 class="post-title">{{ post.title }}타이틀</h2>
 	    {% if post.description %}
-	    <h4 class="post-subtitle">{{ post.description }}</h4>
+	    <h4 class="post-subtitle">{{ post.description }}서브타이틀1</h4>
 	    {% else %}
-	    <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
+	    <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}서브타이틀2</h4>
 	    {% endif %}
 	  </a>
 	  <p class="post-meta">
